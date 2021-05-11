@@ -1,0 +1,25 @@
+/* Base Styles
+   ========================================================================== */
+/**
+* Define el tamaño del diseño a 1280px
+*/
+@media only screen and (min-width: 1280px){
+  body {
+    width: 1280px;
+    margin: 0 auto; 
+  }
+}
+
+/**
+ * Cambia el flujo del HTML pudiendo flotar los elementos a la izquierda
+ */
+.float {
+  float: left;
+}
+
+/**
+ * Limpia el flujo del HTML luego de usar floats
+ */
+.clear {
+  clear: both;
+}
