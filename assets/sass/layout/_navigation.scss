@@ -81,6 +81,7 @@
 */
 .colapsable {
     text-align: right;
+    cursor: pointer;
 
     label {
         display: block;
@@ -94,7 +95,7 @@
     display: none;
 }
 
-input:checked ~ .navigation__container {
+input:checked~.navigation__container {
     max-height: 100%;
 }
   
@@ -115,14 +116,11 @@ input:checked ~ .navigation__container {
         }
     }
   }
-/*
+
 @media only screen and (min-width: 576px){
-    .navigation__logo{
-        top: 1em;
-        left: 3em;
-    }
 
     .colapsable {
+        cursor: pointer;
         label{
             display: none;
         }
@@ -139,6 +137,7 @@ input:checked ~ .navigation__container {
         justify-content: flex-end;
         padding: inherit;
         margin: inherit;
+        padding-top: 2.2em;
     }
 
     .navigation__item {
@@ -146,10 +145,14 @@ input:checked ~ .navigation__container {
             padding: .5em 1em;
             font-size: 1rem;
             font-weight: $bold;
+
+            &:hover {
+                color: $graite-gray;
+            }
         }
     }
 }
- */
+
 /* @media only screen and (min-width: 768px){
 
     .navigation__logo{

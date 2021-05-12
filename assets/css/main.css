@@ -91,6 +91,7 @@ img {
 */
 .colapsable {
   text-align: right;
+  cursor: pointer;
 }
 .colapsable label {
   display: block;
@@ -123,41 +124,37 @@ input:checked ~ .navigation__container {
   color: #646266;
 }
 
-/*
-@media only screen and (min-width: 576px){
-    .navigation__logo{
-        top: 1em;
-        left: 3em;
-    }
+@media only screen and (min-width: 576px) {
+  .colapsable {
+    cursor: pointer;
+  }
+  .colapsable label {
+    display: none;
+  }
 
-    .colapsable {
-        label{
-            display: none;
-        }
-    }
+  .navigation__container {
+    max-height: 100%;
+    padding: 0.5em 3em 0.5em 3em;
+    overflow: visible;
+  }
 
-    .navigation__container {
-        max-height: 100%;
-        padding: .5em 3em .5em 3em;
-        overflow: visible;
-    }
+  .navigation__list {
+    display: flex;
+    justify-content: flex-end;
+    padding: inherit;
+    margin: inherit;
+    padding-top: 2.2em;
+  }
 
-    .navigation__list {
-        display: flex;
-        justify-content: flex-end;
-        padding: inherit;
-        margin: inherit;
-    }
-
-    .navigation__item {
-        a {
-            padding: .5em 1em;
-            font-size: 1rem;
-            font-weight: $bold;
-        }
-    }
+  .navigation__item a {
+    padding: 0.5em 1em;
+    font-size: 1rem;
+    font-weight: 700;
+  }
+  .navigation__item a:hover {
+    color: #646266;
+  }
 }
- */
 /* @media only screen and (min-width: 768px){
 
     .navigation__logo{
