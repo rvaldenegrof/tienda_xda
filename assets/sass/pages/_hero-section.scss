@@ -8,7 +8,20 @@
 
     &__main-content-title{
         padding-top: .5em;
+        font-family: $roboto;
+        font-size: $xx-large;
     }
+
+    &__main-content-text {
+        font-family: $old-tt;
+        text-align: center;
+    }
+}
+
+.hero-section__main-content-text {
+    padding-top: 100px;
+    font-family: $old-tt;
+    text-align: center;
 }
 
 .hero-section__featured-image{
