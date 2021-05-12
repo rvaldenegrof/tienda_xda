@@ -7,19 +7,21 @@
     width: 100%;
 
     &__main-content-title{
+        margin-top: 2em;
         padding-top: .5em;
-        font-family: $roboto;
-        font-size: $xx-large;
+        font-family: $old-tt;
+        font-weight: $bold;
+        text-align: center;
     }
 
     &__main-content-text {
+        margin: 2em;
         font-family: $old-tt;
-        text-align: center;
+        text-align: left;
     }
 }
 
 .hero-section__main-content-text {
-    padding-top: 100px;
     font-family: $old-tt;
     text-align: center;
 }
@@ -28,6 +30,11 @@
     box-sizing: border-box;
     padding-top: 1em;
     height: 100%;
+}
+
+.hero-section__button {
+    width: 100%;
+    text-align: center;
 }
 
 /* //Tamaño pequeño

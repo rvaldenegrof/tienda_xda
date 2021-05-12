@@ -1,0 +1,40 @@
+.newsletter {
+
+    width: 100%;
+    background-color: $smoky-black;
+    color: white;
+    text-align: left;
+    padding-left: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+    h2 {
+        font-size: 24px
+    }
+
+    p {
+        color: $qick-silver;
+        padding-top: 1em; padding-bottom: .5em;
+    }
+
+    &__group {
+        display: inline-block;
+        border-width: 0;
+        font-size: $small;
+        padding: 5px 10px;
+        padding-left: 0px;
+        input {
+            text-align: left;
+        }
+    }
+
+    &__vertical {
+        width: 100px;
+        height: 100%;
+        padding: 10px;
+        background-color: white;
+        color: black;
+        float: right;
+        transform: rotate(90deg); 
+    }
+}
